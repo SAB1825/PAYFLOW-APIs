@@ -1,0 +1,25 @@
+info:
+  name: CREATE
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3000/account/create
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNTk5MiwiZXhwIjoxNzkwOTI2ODkyfQ.1jZlczP3a6LnvZrOhGqwEPk6W9-RHCGaEPQ89yKfNwA
+  body:
+    type: json
+    data: |-
+      {
+        "accountType": "SAVINGS"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

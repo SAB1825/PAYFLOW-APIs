@@ -1,0 +1,22 @@
+info:
+  name: DELETE BENEFICIARY
+  type: http
+  seq: 3
+
+http:
+  method: DELETE
+  url: http://localhost:3000/beneficiary/5e147fa4-4e80-4c07-be5b-ec8587d28d34
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNzE0OSwiZXhwIjoxNzkwOTI4MDQ5fQ.UNCIDnWbfHqoDl4d3_E7sBnkkbkaiVJhURTnA1JzchM
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

@@ -1,0 +1,29 @@
+info:
+  name: SEND
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3000/transfer
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNzE0OSwiZXhwIjoxNzkwOTI4MDQ5fQ.UNCIDnWbfHqoDl4d3_E7sBnkkbkaiVJhURTnA1JzchM
+    - name: idempotency-key
+      value: KEY-1
+  body:
+    type: json
+    data: |-
+      {
+        "fromAccountNumber": "75630846739684518646",
+        "toAccountNumber": "66532096954954826305",
+        "amount": 5000
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
