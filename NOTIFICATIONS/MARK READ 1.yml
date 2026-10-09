@@ -5,7 +5,7 @@ info:
 
 http:
   method: PATCH
-  url: http://localhost:3000/notifications/8ffd0501-46e1-49f3-8f82-4a7cce6bd939/read
+  url: http://localhost:3000/api/v1/notifications/8ffd0501-46e1-49f3-8f82-4a7cce6bd939/read
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiMDc0ZTdmYy05NTEzLTRhMzItOGFiNS1iMWYxZmJhY2JlMGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImp0aSI6IjJkY2ZiMzM3LWFkYjYtNGNjMy05NmI3LTM1YTRjZmY1OGE4MSIsImlhdCI6MTc5MTI5NzU4MSwiZXhwIjoxNzkxMjk4NDgxfQ.DxAS_TFhEh-FVArJ5CoQjuJ82lrSis0utEtKfHNgSMc

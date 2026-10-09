@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://localhost:3000/beneficiary
+  url: http://localhost:3000/api/v1/beneficiaries
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNzE0OSwiZXhwIjoxNzkwOTI4MDQ5fQ.UNCIDnWbfHqoDl4d3_E7sBnkkbkaiVJhURTnA1JzchM

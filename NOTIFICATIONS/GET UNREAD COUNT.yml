@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:3000/notifications/unread-count
+  url: http://localhost:3000/api/v1/notifications/unread-count
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiMDc0ZTdmYy05NTEzLTRhMzItOGFiNS1iMWYxZmJhY2JlMGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImp0aSI6IjJkY2ZiMzM3LWFkYjYtNGNjMy05NmI3LTM1YTRjZmY1OGE4MSIsImlhdCI6MTc5MTI5NzU4MSwiZXhwIjoxNzkxMjk4NDgxfQ.DxAS_TFhEh-FVArJ5CoQjuJ82lrSis0utEtKfHNgSMc

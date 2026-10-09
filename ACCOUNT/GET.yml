@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:3000/account
+  url: http://localhost:3000/api/v1/accounts
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNTk5MiwiZXhwIjoxNzkwOTI2ODkyfQ.1jZlczP3a6LnvZrOhGqwEPk6W9-RHCGaEPQ89yKfNwA

@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://localhost:3000/auth/refresh
+  url: http://localhost:3000/api/v1/auth/refresh
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNTg0NCwiZXhwIjoxNzkwOTI2NzQ0fQ.KIRSH5X5FvwU89_SNURyrY3w13wOaRP6uvtGWPFBvFg

@@ -5,18 +5,18 @@ info:
 
 http:
   method: POST
-  url: http://localhost:3000/transfer
+  url: http://localhost:3000/api/v1/transfers
   headers:
     - name: Authorization
-      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTZjY2NmZS04MWVjLTQ0ZTUtYjg5Ni04M2UxODlhZDAwZGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImlhdCI6MTc5MDkyNzE0OSwiZXhwIjoxNzkwOTI4MDQ5fQ.UNCIDnWbfHqoDl4d3_E7sBnkkbkaiVJhURTnA1JzchM
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiMDc0ZTdmYy05NTEzLTRhMzItOGFiNS1iMWYxZmJhY2JlMGYiLCJlbWFpbCI6InNhYmFyaTAxQGdtYWlsLmNvbSIsImp0aSI6ImJhZjI1NDYxLWI1NTMtNDdhYS05ZjEzLWIwYmI1ZjdmNmJmZiIsImlhdCI6MTc5MTI5OTI2OSwiZXhwIjoxNzkxMzAwMTY5fQ.wUCjtm8j8rirjS7JIcNAI65grQ9BYfDxXHZ5hOza1oQ
     - name: idempotency-key
-      value: KEY-1
+      value: KEY-2
   body:
     type: json
     data: |-
       {
-        "fromAccountNumber": "75630846739684518646",
-        "toAccountNumber": "66532096954954826305",
+        "fromAccountNumber": "54778825868551127999",
+        "toAccountNumber": "82589022227714225449",
         "amount": 5000
       }
   auth: inherit
